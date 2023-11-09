@@ -1,5 +1,7 @@
 # Healthcare Landing Page
 
+<a href="https://healthcare-landing-page.vercel.app/" target="_blank">Live Demo</a>
+
 This landing page was created using HTML, CSS, and some light JavaScript.
 
 Biult with:
