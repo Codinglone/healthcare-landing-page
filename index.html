@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/3021dfb2e8.js" crossorigin="anonymous"></script>
+
+    <!-- css external files -->
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- Roboto google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <title>WVHealth</title>
+</head>
+<body>
+    <!-- navigation bar -->
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <!-- logo -->
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <div class="navbar_links-container">
+                    <!-- navigation links -->
+                    <div class="navbar_links">
+                        <ul>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Doctors</a></li>
+                            <li><a href="#">Patients</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                    <!-- navigation button -->
+                    <div class="navbar_button">
+                        <button class="navbar_button-1">Get Started</button>
+                        <button class="navbar_button-2"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero_section">
+            <div class="container">
+                <div class="hero_section-content">
+                    <div class="hero_text">
+                        <h3>Stay Strong, Live Long.</h3>
+                        <h1>We provide the <span class="blue_text-lg">best quality services</span> for you</h1>
+                        <p>Welcome to WVHealth, where we are committed to delivering exceptional healthcare services to patients around the world.</p>
+                        <button>Make an Appointment</button>
+                        <!-- circle background svg -->
+                        <svg viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="hero_text-svg">
+                            <!-- linear gradient color to fill svg -->
+                            <defs>
+                                <linearGradient id="gradient_text-svg" x1="0%" y1="0%" x2="50%" y2="0%">
+                                  <stop offset="0%"   stop-color="#f3f3f3"/>
+                                  <stop offset="100%" stop-color="#CEF5F8"/>
+                                </linearGradient>
+                            </defs>
+                            <!-- path to draw circle for svg -->
+                            <path d="M 0, 100 C 0, 48 48, 0 100, 0 S 200, 48 200, 100 152, 200 100, 200 0, 152 0, 100" fill="#D3F5F7" transform="rotate(-2, 100, 100) translate(0 0)" class="hero_text-svg"></path>
+                        </svg>
+                    </div>
+                    <div class="hero_image">
+                        <img src="images/heading-doctor.png" alt="doctor">
+                        <!-- circle background svg -->
+                        <svg viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="hero_image-svg">
+                            <!-- linear gradient color to fill svg -->
+                            <defs>
+                                <linearGradient id="gradient_image-svg" x1="0%" y1="0%" x2="50%" y2="0%">
+                                  <stop offset="0%"   stop-color="#BFEAFA"/>
+                                  <stop offset="100%" stop-color="#ADF3FB"/>
+                                </linearGradient>
+                            </defs>
+                            <!-- path to draw circle for svg -->
+                            <path d="M 0, 100 C 0, 48 48, 0 100, 0 S 200, 48 200, 100 152, 200 100, 200 0, 152 0, 100" fill="#D3F5F7" transform="rotate(-2, 100, 100) translate(0 0)" class="hero_image-svg"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features_title">
+            <div class="container features_title-container">
+                <div class="features_title-details">
+                    <h2>Top notch quality <span class="blue_text-md">care</span></h2>
+                    <p>We are passionate about improving healthcare for everyone. So whether you are a patient or a healthcare professional, we invite you to join us on this journey and experience the future of healthcare today.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="features_display">
+                    <div class="display display_red">
+                        <i class="fa-solid fa-shield-heart icon_red"></i>
+                        <h3>Patient Safety</h3>
+                        <p>Streamline safety protocols and minimize risk with our comprehensive management tools.</p>
+                    </div>
+                    <div class="display display_brown">
+                        </i><i class="fa-solid fa-hand-holding-medical icon_brown"></i>
+                        <h3>Patient Care</h3>
+                        <p>Streamline safety protocols and minimize risk with our comprehensive management tools.</p>
+                    </div>
+                    <div class="display display_green">
+                        <i class="fa-regular fa-clock icon_green"></i>
+                        <h3>24/7 Services</h3>
+                        <p>Streamline safety protocols and minimize risk with our comprehensive management tools.</p>
+                    </div>
+                    <div class="display display_cyan">
+                        <i class="fa-solid fa-headset icon_cyan"></i>
+                        <h3>Online Support</h3>
+                        <p>Streamline safety protocols and minimize risk with our comprehensive management tools.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <div class="contact_section">
+                    <div class="contact_img">
+                        <img src="images/doctor-patient-one.jpg" alt="doctor with patient" class="doctor-patient-one">
+                        <img src="images/doctor-rating.jpg" alt="rating" class="doctor-rating">
+                    </div>
+                    <div class="contact_details">
+                        <h2>Quality healthcare starts with <span class="blue_text-lg">quality doctors</span></h2>
+                        <p>At WVHealth, we believe that everyone deserves access to high-quality healthcare, no matter where they are or what their circumstances may be.</p>
+                        <p>That's why we've created a comprehensive platform that connects patients with the best healthcare providers in their area, and provides doctors and healthcare professionals with the resources they need to deliver the best possible care.</p>
+                        <div class="contact_button">
+                            <button class="contact_button-1">Contact Us</button>
+                            <button class="contact_button-2"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="extra_features">
+            <div class="container">
+                <div class="extra_feature">
+                    <div class="extra_details">
+                        <div class="extra_header">
+                            <img src="images/ambulance.png" alt="ambulance" class="ambulance">
+                            <h3>Emergency</h3>
+                        </div>
+                        <div class="extra_detail">
+                            <p>Provide critical care to patients no matter your location.</p>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </div>
+                    <div class="extra_details-middle">
+                        <div class="extra_details details_middle">
+                            <div class="extra_header">
+                                <img src="images/calendar.png" alt="calendar" class="appointment">
+                                <h3>Appointment</h3>
+                            </div>
+                            <div class="extra_detail">
+                                <p>Provide critical care to patients no matter your location.</p>
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </div>
+                        </div>
+                        <div class="middle_blue-bg"></div>
+                    </div>
+                    <div class="extra_details">
+                        <div class="extra_header">
+                            <img src="images/doctor-icon.png" alt="doctor" class="find_doctor">
+                            <h3>Find Doctor</h3>
+                        </div>
+                        <div class="extra_detail">
+                            <p>Provide critical care to patients no matter your location.</p>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="schedule">
+            <div class="container">
+                <div class="schedule_section">
+                    <div class="schedule_details">
+                        <h2>Make a <span class="blue_text-lg">free appointment</span> with one of our healthcare providers today.</h2>
+                        <div class="schedule_details-specific">
+                            <i class="fa-solid fa-arrow-turn-up"></i>
+                            <p>With our simple online app, you can schedule appointments with the best healthcare providers all from the comfort of your own home.</p>
+                        </div>
+                        <p>Our secure messaging and telemedicine capabilities can help you can connect with your doctor before and after your appointment ensuring that you get the best possible care every step of the way. So why wait? Book your appointment today and take the first step towards better health and wellbeing!</p>
+                        <div class="schedule_details-features">
+                            <h3>Medical check-up features:</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa-regular fa-circle-check"></i>
+                                    <p>Heartbeat Rate</p>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-circle-check"></i>
+                                    <p>Glucose Tolerance Test</p>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-circle-check"></i>
+                                    <p>Blood Pressure</p>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-circle-check"></i>
+                                    <p>Blood Sugar Level</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="schedule_images">
+                        <img src="images/doctor-patient-two.jpg" alt="doctor with patient" class="doctor-patient-two">
+                        <img src="images/appointment.jpg" alt="appointment" class="appointment-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="patients">
+            <div class="container">
+                <div class="patient">
+                    <h2>Let's see what <span class="blue_text-lg">patient</span> says?</h2>
+                    <div class="patient_comment">
+                        <div class="patient_comment-image">
+                            <img src="https://randomuser.me/api/portraits/men/66.jpg" alt="male patient" class="patient_icon icon_one">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="male patient" class="patient_icon icon_two">
+                            <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="female patient" class="patient_icon-unique">
+                            <img src="https://randomuser.me/api/portraits/women/64.jpg" alt="female patient" class="patient_icon icon_three">
+                            <img src="https://randomuser.me/api/portraits/women/71.jpg" alt="female patient" class="patient_icon icon_four">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800" class="patient_comment-svg">
+                                <g stroke-width="19" stroke="#169fed" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="matrix(0.34202014332566816,-0.9396926207859085,0.9396926207859085,0.34202014332566816,-107.68510564463077,651.0689909840962)">
+                                    <path d="M271 271Q492 380 529 529 " marker-end="url(#SvgjsMarker1597)"></path>
+                                </g>
+                                <defs>
+                                    <marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1597"><polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="#169fed"></polygon></marker>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="patient_comment-detail">
+                            <p>
+                                <i class="fa-solid fa-quote-left"></i>
+                                Using <span class="blue_text-md">WVHealth's website</span> was a game-changer for me! Booking appointments, accessing medical records, and receiving timely updates has never been easier. Thank you for making healthcare so convenient and accessible.
+                                <i class="fa-solid fa-quote-right"></i>
+                            </p>
+                            <h3>Jane Doe</h3>
+                            <p>Patient</p>
+                        </div>
+                        <!-- circle background svg -->
+                        <svg viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="patient_text-svg">
+                            <!-- linear gradient color to fill svg -->
+                            <defs>
+                                <linearGradient id="patient_text-svg" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%"   stop-color="#CEF5F8"/>
+                                <stop offset="100%" stop-color="#f3f3f3"/>
+                                </linearGradient>
+                            </defs>
+                            <!-- path to draw circle for svg -->
+                            <path d="M 0, 100 C 0, 48 48, 0 100, 0 S 200, 48 200, 100 152, 200 100, 200 0, 152 0, 100" fill="#D3F5F7" transform="rotate(-2, 100, 100) translate(0 0)" class="patient_text-svg"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="container">
+                <div class="news_details">
+                    <h2>Our Latest <span class="blue_text-md">News</span></h2>
+                    <div class="news_section">
+                        <div class="newsletter">
+                            <a href="#"><img src="images/women-science.jpg" alt="women-science" class="newsletter_img-header"></a>
+                            <div class="newsletter_icons">
+                                <div class="newsletter_icons-person">
+                                    <a href="#"><img src="https://randomuser.me/api/portraits/women/83.jpg" alt="random_author"></a>
+                                    <a href="#"><span>By Jane Doe</span></a>
+                                </div>
+                                <div class="newsletter_icons-date">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span>20/20/2020</span>
+                                </div>
+                            </div>
+                            <a href="#"><h3>Join Us for International Day of Women and Girls in Science</h3></a>
+                            <p>International Day for Women and Girls in Science is celebrated every year on February 11th to raise awareness about the underrepresentation of women in science and to promote gender equality in the field of science. This day acknowledges the significant contributions that women and girls have made to science, while also highlighting the challenges they face in pursuing careers in STEM (science, technology, engineering, and math) fields.</p>
+                            <p>Despite the progress made in recent years, women and girls continue to face various barriers to their participation in science, including gender stereotypes, discrimination, lack of representation, and insufficient access to resources and opportunities. It is essential to recognize the valuable contributions of women and girls in science and to promote and support their participation in STEM fields...</p>
+                        </div>
+                        <div class="news_links">
+                            <div class="latest_news">
+                                <div class="latest_news-header">
+                                    <span class="latest_news_heading">Latest News:</span>
+                                    <a href="#" class="latest_news-link">View All <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                                <div class="latest_news-article">
+                                    <a href="#"><img src="images/science-news-1.jpg" alt="science-news"></a>
+                                    <div class="latest_news-article_detail">
+                                        <a href="#"><h3>Burnout and Bias in the medical field...</h3></a>
+                                        <span><a href="#">Read More <i class="fa-solid fa-chevron-right"></i></a></span>
+                                    </div>
+                                </div>
+                                <div class="latest_news-article">
+                                    <a href="#"><img src="images/science-news-2.jpg" alt="science-news"></a>
+                                    <div class="latest_news-article_detail">
+                                        <a href="#"><h3>Anti-aging Early Detection Research Study...</h3></a>
+                                        <span><a href="#">Read More <i class="fa-solid fa-chevron-right"></i></a></span>
+                                    </div>
+                                </div>
+                                <div class="latest_news-article">
+                                    <a href="#"><img src="images/science-news-3.jpg" alt="science-news"></a>
+                                    <div class="latest_news-article_detail">
+                                        <a href="#"><h3>Healthy Living with Graves Disease...</h3></a>
+                                        <span><a href="#">Read More <i class="fa-solid fa-chevron-right"></i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coming_soon">
+                                <div class="latest_news-header">
+                                    <span class="latest_news_heading">Coming Soon:</span>
+                                </div>
+                                <div class="coming_soon-img">
+                                    <a href="#"><img src="images/soon-news-1.jpg" alt="coming-soon-news"></a>
+                                    <a href="#"><img src="images/soon-news-2.jpg" alt="coming-soon-news"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_section">
+            <div class="container">
+                <div class="footer_section-content">
+                    <div class="footer_logo-section">
+                        <a href="#"><img src="images/logo.png" alt="logo"></a>
+                        <div class="company_address">
+                            <p>Kigali, Rwanda</p>
+                            <p>Gasabo</p>
+                        </div>
+                        <div class="company_contact">
+                            <div class="contact_info">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>+250-784-427-142</p>
+                            </div>
+                            <div class="contact_info">
+                                <i class="fa-regular fa-envelope"></i>
+                                <p>codinglone@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="company_social">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer_company-section">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Partnerships</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_resource-section">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_newsletter-section">
+                        <h3>Newsletter</h3>
+                        <p>Subscribe to our newsletter to get the latest information from us.</p>
+                        <div class="newsletter_button">
+                            <input type="email" id="email" name="email" placeholder="Email Address"><button><a href="#"><i class="fa-solid fa-chevron-right"></i></a></button>
+                        </div>
+                    </div>
+                </div>
+                <p class="copyright">&copy; Copyright 2023 WVHealth All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
